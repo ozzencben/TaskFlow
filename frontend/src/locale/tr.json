@@ -1,0 +1,99 @@
+{
+  "app": {
+    "title": "React App"
+  },
+  "home": {
+    "title": "Home"
+  },
+
+  "register": {
+    "title": "Başlayalım!",
+    "subtitle": "Notlarını kolayca oluştur, düzenle ve takip et.",
+    "password": "Sifre",
+    "name": "Ad",
+    "email": "E-posta",
+    "register": "Kayıt Ol",
+    "alreadyHaveAccount": "Zaten hesabınız var mı?",
+    "login": "Giriş Yap"
+  },
+
+  "login": {
+    "title": "Giriş Yap ve Başla!",
+    "subtitle": "Notlarını hemen görüntüle ve yönet.",
+    "password": "Sifre",
+    "email": "E-posta",
+    "login": "Giriş Yap",
+    "alreadyHaveAccount": "Zaten hesabınız var mı?",
+    "register": "Kayıt Ol"
+  },
+
+  "topbar": {
+    "welcome": "Merhaba"
+  },
+
+  "createTask": {
+    "title": "Başlık",
+    "description": "Acıklama",
+    "date": "Tarih",
+    "create": "Olustur",
+    "add": "Ekle"
+  },
+
+  "tasks": {
+    "due": "Son Tarih",
+    "status": "Durum",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "update": "Güncelle",
+    "title": "Başlık",
+    "description": "Acıklama",
+    "date": "Tarih",
+    "remaining": "Kalan Zaman",
+    "noDueDate": "Tarih Yok",
+    "today": "Bugün",
+    "tomorrow": "Yarın",
+    "years": "Yıl",
+    "months": "Ay",
+    "weeks": "Hafta",
+    "days": "Gün",
+    "hours": "Saat",
+    "minutes": "Dakika",
+    "seconds": "Saniye",
+    "ago": "Önce",
+    "low": " Düsük",
+    "medium": "Orta",
+    "high": "Önemli",
+    "todo": "Yapılacaklar",
+    "done": "Tamamlandı",
+    "in_progress": "Devam ediyor",
+    "addTag": "Etiket Ekle",
+    "updateTask": "Güncelle",
+    "updatingTask": "Güncelleniyor...",
+    "taskDeleted": "Görev Silindi!",
+    "tasksDeleted": "Görevler Silindi!",
+    "taskStatusChanged": "Görev Durumu Değiştirildi!",
+    "taskPriorityChanged": "Görev Oncelik Değiştirildi!",
+    "subTasks": "Alt Görevler",
+    "addSubTask": "Alt Görev Ekle",
+    "add": "Ekle"
+  },
+
+  "tasksControl": {
+    "TODO": "Yapılacaklar",
+    "DONE": "Tamamlananlar",
+    "IN_PROGRESS": "Devam Edenler",
+    "LOW": "Acelesi Yok",
+    "MEDIUM": "Önemli",
+    "HIGH": "Çok Önemli",
+    "subtasks": "Alt Görevler",
+    "addSubtask": "Ekle",
+    "deleteSubtask": "Sil",
+    "subTaskDeleted": "Alt Görev Silindi!",
+    "editSubtask": "Tamamlandı",
+    "createTask": "Görev Olustur",
+    "images": "Resimler",
+    "noSubtasks": "Alt Görev Yok",
+    "creating": "Görev Olusturuluyor...",
+    "noTasks": "Görev Yok"
+  }
+}

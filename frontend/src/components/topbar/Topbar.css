@@ -1,0 +1,106 @@
+.topbar-wrapper {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  width: min(90%, 600px);
+  margin: 10px auto;
+}
+
+.topbar-container {
+  width: 100%;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: var(--bg-color-secondary);
+  box-shadow: var(--box-shadow-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.topbar-user {
+  display: flex;
+  align-items: center;
+}
+
+.topbar-user_avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--card-bg-color-tertiary);
+  cursor: pointer;
+}
+.topbar-user_avatar:hover {
+  background-color: var(--button-hover-bg-color-tertiary);
+}
+
+.topbar-user__avatar-text {
+  color: var(--text-color-secondary);
+  font-weight: bold;
+  font-size: clamp(12px, 2vw, 14px);
+}
+
+.topbar-user__avatar-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.topbar-user-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.topbar-user-name {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}
+
+.topbar-username,
+.topbar-welcome {
+  color: var(--text-color-primary);
+  font-size: clamp(10px, 2vw, 14px);
+  font-weight: bold;
+}
+
+.topbar-date {
+  color: var(--text-color-tertiary);
+  font-size: clamp(8px, 2vw, 12px);
+}
+
+/* topbar-buttons */
+.topbar-buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.topbar-notification {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--card-bg-color-tertiary);
+  cursor: pointer;
+}
+.topbar-notification:hover {
+  background-color: var(--button-hover-bg-color-tertiary);
+}
+
+.topbar-notification__icon {
+  color: var(--text-color-secondary);
+  font-weight: bold;
+  width: clamp(16px, 2vw, 18px);
+  height: clamp(16px, 2vw, 18px);
+}

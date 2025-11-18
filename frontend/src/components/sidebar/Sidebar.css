@@ -1,0 +1,13 @@
+.switcher-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.switcher {
+  transition: opacity 0.3s ease-in-out;
+  background-color: var(--button-bg-color-tertiary);
+}
+.switcher:hover {
+  background-color: var(--button-hover-bg-color-tertiary);
+}

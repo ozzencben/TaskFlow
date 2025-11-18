@@ -1,0 +1,41 @@
+.task-control-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 10px;
+  border-radius: 16px;
+  background-color: var(--bg-glass);
+  backdrop-filter: var(--backdrop-filter);
+  -webkit-backdrop-filter: var(--webkit-backdrop-filter);
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-box-shadow);
+  position: relative;
+}
+
+.task-control-container__header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 10px;
+}
+
+.task-create-button {
+  padding: 5px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color-primary);
+  background-color: var(--button-bg-color-primary);
+  cursor: pointer;
+  color: var(--text-color-secondary);
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+.task-create-button:hover {
+  background-color: var(--button-bg-color-secondary);
+  color: var(--text-color-primary);
+}

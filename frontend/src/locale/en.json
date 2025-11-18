@@ -1,0 +1,100 @@
+{
+  "app": {
+    "title": "React App"
+  },
+  "home": {
+    "title": "Home"
+  },
+
+  "register": {
+    "title": "Let's Get Started!",
+    "subtitle": "Create, organize, and track your notes with ease.",
+    "password": "Password",
+    "name": "Name",
+    "email": "Email",
+    "register": "Register",
+    "alreadyHaveAccount": "Already have an account?",
+    "login": "Login"
+  },
+
+  "login": {
+    "title": "Log In & Get Going!",
+    "subtitle": "Access and manage your notes instantly.",
+    "password": "Password",
+    "email": "Email",
+    "login": "Login",
+    "alreadyHaveAccount": "Already have an account?",
+    "register": "Register"
+  },
+
+  "topbar": {
+    "welcome": "Welcome"
+  },
+
+  "createTask": {
+    "title": "Title",
+    "description": "Description",
+    "date": "Date",
+    "create": "Create",
+    "add": "Add"
+  },
+
+  "tasks": {
+    "due": "Last Date",
+    "status": "Status",
+    "delete": "Delete",
+    "update": "Update",
+    "edit": "Edit",
+    "title": "Title",
+    "description": "Description",
+    "date": "Date",
+    "remaining": "Remaining Time",
+    "noDueDate": "No Due Date",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "weeks": "Weeks",
+    "months": "Months",
+    "years": "Years",
+    "days": "Day",
+    "hours": "Hour",
+    "minutes": "Minute",
+    "seconds": "Second",
+    "ago": "Ago",
+    "low": "Low",
+    "medium": "Medium",
+    "high": "High",
+    "todo": "To Do",
+    "done": "Done",
+    "in_progress": "In Progress",
+    "addTag": "Add Tag",
+    "updateTask": "Update Task",
+    "updating": "Updating...",
+    "taskDeleted": "Task Deleted!",
+    "tasksDeleted": "Tasks Deleted!",
+    "taskStatusChanged": "Task Status Changed!",
+    "taskPriorityChanged": "Task Priority Changed!",
+    "subTasks": "Subtasks",
+    "addSubTask": "Add Subtask",
+    "add": "Add"
+  },
+
+  "tasksControl": {
+    "all": "All",
+    "TODO": "To Do",
+    "DONE": "Done",
+    "IN_PROGRESS": "In Progress",
+    "LOW": "Low",
+    "MEDIUM": "Medium",
+    "HIGH": "High",
+    "subtasks": "Subtasks",
+    "addSubtask": "Add",
+    "deleteSubtask": "Delete",
+    "subTaskDeleted": "Subtask Deleted!",
+    "editSubtask": "Done",
+    "createTask": "Create Task",
+    "images": "Images",
+    "noSubtasks": "No Subtasks",
+    "creating": "Creating...",
+    "noTasks": "No Tasks"
+  }
+}

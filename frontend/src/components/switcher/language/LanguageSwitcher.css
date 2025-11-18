@@ -1,0 +1,16 @@
+.language-button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--text-color-secondary);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: clamp(10px, 2vw, 12px);
+}
